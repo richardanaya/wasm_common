@@ -1,0 +1,12 @@
+[package]
+name = "wasm_common"
+version = "0.0.1"
+authors = ["richard <richard>"]
+edition = "2018"
+description = "Common constants or types for web assembly"
+license = "MIT OR Apache-2.0"
+categories = ["wasm", "no-std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
