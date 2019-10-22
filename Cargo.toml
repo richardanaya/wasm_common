@@ -1,5 +1,5 @@
 [package]
-name = "wasm_common"
+name = "web_common"
 version = "0.0.1"
 authors = ["richard <richard>"]
 edition = "2018"
