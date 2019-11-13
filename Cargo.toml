@@ -1,11 +1,12 @@
 [package]
 name = "web_common"
-version = "0.0.1"
-authors = ["richard <richard>"]
+version = "0.0.2"
+authors = ["Richard Anaya"]
 edition = "2018"
 description = "Common constants or types for web assembly"
 license = "MIT OR Apache-2.0"
 categories = ["wasm", "no-std"]
+repository = "https://www.github.com/richardanaya/web_common"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
