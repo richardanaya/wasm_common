@@ -42,3 +42,10 @@ impl ToJSValue for JSValue {
         *self as JSValue
     }
 }
+
+impl ToJSValue for &JSValue {
+    #[inline]
+    fn to_js_value(&self) -> JSValue {
+        **self as JSValue
+    }
+}
