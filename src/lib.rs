@@ -1,16 +1,10 @@
 #![no_std]
 
 pub type JSValue = f64;
-
 pub type JSType = i32;
 
-pub const UNDEFINED: JSValue = 0.0;
 pub const FALSE: JSValue = 0.0;
 pub const TRUE: JSValue = 1.0;
-pub const NULL: JSValue = 1.0;
-pub const CONSOLE: JSValue = 2.0;
-pub const WINDOW: JSValue = 3.0;
-pub const DOCUMENT: JSValue = 4.0;
 
 pub const TYPE_NOTHING: JSType = 0;
 pub const TYPE_NUMBER: JSType = 1;
