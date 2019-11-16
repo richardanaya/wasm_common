@@ -13,7 +13,7 @@ pub const WINDOW: JSValue = 3.0;
 pub const DOCUMENT: JSValue = 4.0;
 
 pub const TYPE_NOTHING: JSType = 0;
-pub const TYPE_NUM: JSType = 1;
+pub const TYPE_NUMBER: JSType = 1;
 pub const TYPE_STRING: JSType = 2;
 pub const TYPE_BOOL: JSType = 3;
 pub const TYPE_FUNCTION: JSType = 4;
