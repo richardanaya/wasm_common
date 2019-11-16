@@ -30,22 +30,3 @@ pub const TYPE_F64_ARRAY: JSType = 14;
 pub const TYPE_BI64_ARRAY: JSType = 15;
 pub const TYPE_BUI64_ARRAY: JSType = 16;
 pub const TYPE_MEMORY: JSType = 17;
-
-pub trait ToJSValue {
-    #[inline(Always)]
-    fn to_js_value(&self) -> JSValue;
-}
-
-impl ToJSValue for JSValue {
-    #[inline]
-    fn to_js_value(&self) -> JSValue {
-        *self as JSValue
-    }
-}
-
-impl ToJSValue for &JSValue {
-    #[inline]
-    fn to_js_value(&self) -> JSValue {
-        **self as JSValue
-    }
-}
