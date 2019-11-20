@@ -1,6 +1,6 @@
 [package]
 name = "web_common"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Richard Anaya"]
 edition = "2018"
 description = "Common constants or types for web assembly"
@@ -12,3 +12,6 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+web_console = "0"
+web_random = "0"
+web_timer = "0"
